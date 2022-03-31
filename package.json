@@ -5,7 +5,8 @@
 	"author": "Zachary Godfrey",
 	"scripts": {
 		"test": "npm run test --workspaces --if-present",
-		"build": "npm run build --workspaces --if-present"
+		"build": "npm run build --workspaces --if-present",
+		"local": "npm run local --workspaces --if-present"
 	},
 	"workspaces": [
 		"api",
