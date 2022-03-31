@@ -1,0 +1,17 @@
+{
+	"name": "rpc-mono-client",
+	"scripts": {
+		"build": "node src/index.js",
+		"serve": "http-server .build -p 8080",
+		"local": "nodemon --watch src --exec npm run build && npm run serve"
+	},
+	"dependencies": {
+		"fs-extra": "^9.0.1",
+		"glob": "^7.1.6",
+		"marked": "^1.1.0",
+		"node-sass": "^4.14.1"
+	},
+	"devDependencies": {
+		"http-server": "^0.12.3"
+	}
+}
