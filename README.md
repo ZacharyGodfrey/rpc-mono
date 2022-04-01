@@ -71,7 +71,15 @@ POST /{actionName}
 
 ## Client
 
-Will be hosted in [Netlify][hosting-netlify].
+Details are TBD.
+
+## Contribution
+
+- `npm i` to install dependencies
+- `npm run local` to start the API and client locally
+- API will be running at `http://localhost:3000`
+- Client will be running at `http://localhost:8080`
+- Changes will be detected and services will restart automatically
 
 ## Links
 
