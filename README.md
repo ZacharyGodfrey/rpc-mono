@@ -57,7 +57,7 @@ POST /{actionName}
 #### Failure
 
 - `messages`: a collection of one or more error messages
-- `data`: always `null` when `ok` is `false`
+- `data`: always `null` for failure responses
 
 ```json
 {
