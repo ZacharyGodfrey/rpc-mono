@@ -8,7 +8,7 @@ A mono repo containing an RPC-style HTTP API and a statically generated client a
 
 ![build][shield-build]
 ![coverage][shield-coverage]
-![todo][shield-todo]
+[![todo][shield-todo]][shield-todo-link]
 
 ## API
 
@@ -95,7 +95,8 @@ Details are TBD.
 [shield-lang]: https://img.shields.io/github/languages/top/ZacharyGodfrey/rpc-mono?style=flat-square
 [shield-build]: https://img.shields.io/github/workflow/status/ZacharyGodfrey/rpc-mono/CI%20Workflow/main?style=flat-square
 [shield-coverage]: https://img.shields.io/badge/dynamic/json?style=flat-square&color=blue&label=coverage&query=$.total.statements.pct&suffix=%&url=https://raw.githubusercontent.com/ZacharyGodfrey/rpc-mono/main/api/coverage/coverage-summary.json
-[shield-todo]: https://img.shields.io/github/search/ZacharyGodfrey/rpc-mono/TODO:%20repo:ZacharyGodfrey/rpc-mono%20extension:js?label=TODO%20count&style=flat-square
+[shield-todo]: https://img.shields.io/github/search/ZacharyGodfrey/rpc-mono/TODO%20repo:ZacharyGodfrey/rpc-mono%20extension:js?label=TODO%20count&style=flat-square
+[shield-todo-link]: https://github.com/search?q=TODO+repo%3AZacharyGodfrey%2Frpc-mono+extension%3Ajs&type=Code&ref=advsearch
 [hosting-heroku]: https://heroku.com
 [hosting-netlify]: https://netlify.com
 [dev-env]: https://vscode.dev/github/ZacharyGodfrey/rpc-mono
