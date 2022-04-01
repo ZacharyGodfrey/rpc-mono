@@ -1,1 +1,1 @@
-// Build script for the static web client
+console.log('Build script for the static web client');

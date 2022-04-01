@@ -18,6 +18,8 @@ jobs:
           node-version: 16
       - name: Install Dependencies
         run: npm i
+      - name: Run Build
+        run: npm run build
       - name: Run Tests
         run: npm run test
       - name: Commit JSON Coverage Report

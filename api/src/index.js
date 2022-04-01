@@ -1,1 +1,1 @@
-// Starting point for the HTTP API
+console.log('Starting point for the HTTP API');
