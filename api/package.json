@@ -19,7 +19,8 @@
 			"src/server.js"
 		],
 		"reporter": [
-			"lcov",
+			"html",
+			"json-summary",
 			"text-summary",
 			"text"
 		],
