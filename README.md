@@ -1,24 +1,26 @@
 # rpc-mono
 
-![tests][tests]
+![tests][shield-tests]
 
 A mono repo containing an RPC-style HTTP API and a statically generated client application
 
 ## API
 
-TBD
+Will be hosted in [Heroku][hosting-heroku].
 
 ## Client
 
-TBD
+Will be hosted in [Netlify][hosting-netlify].
 
 ## Links
 
 - [VS Code Online](https://vscode.dev/github/ZacharyGodfrey/rpc-mono)
-- [Heroku Project Link](#heroku-link)
-- [Netlify Project Link](#netlify-link)
-- [Web Application](#web-link)
+- [Web Application][app]
 - [Shields (for later)](https://shields.io/)
 
+---
 
-[tests]: [https://img.shields.io/github/workflow/status/ZacharyGodfrey/rpc-mono/test/main?label=tests&style=flat-square]
+[shield-tests]: https://img.shields.io/github/workflow/status/ZacharyGodfrey/rpc-mono/test/main?label=tests&style=flat-square
+[hosting-heroku]: https://heroku.com
+[hosting-netlify]: https://netlify.com
+[app]: https://github.com/ZacharyGodfrey/rpc-mono
