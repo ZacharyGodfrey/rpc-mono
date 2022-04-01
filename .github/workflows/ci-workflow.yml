@@ -15,4 +15,4 @@ jobs:
           node-version: 16
       - run: npm i
       - run: npm run test
-      - run: ls -a
+      - run: cd api/coverage && ls -a && cd ../..
